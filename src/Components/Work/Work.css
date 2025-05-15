@@ -49,13 +49,14 @@
         font-size: 35px !important;;
         font-weight: 600;
     }
+    .work
     .mywork-container{
        display: flex;
        flex-direction: column; 
        gap: 50px;
     }
     .mywork-container img{
-    border: 4px solid rgb(215, 107, 212);
+    border: 1px solid rgb(155, 99, 153);
 }
 
 }
