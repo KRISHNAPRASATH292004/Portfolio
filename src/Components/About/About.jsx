@@ -18,11 +18,11 @@ const About = () => {
                 <p>I'm a frontend developer with a passion for building clean, responsive, and intuitive web applications. I enjoy crafting user-focused designs using HTML, CSS, JavaScript, and React, and I’m always eager to enhance user experience through thoughtful design and performance optimization. I continuously seek out new challenges and projects to improve my skills and stay updated with the latest in frontend development</p>
             </div>
             <div className="about-skills">
-                <div className="about-skill"> <p>HTML & CSS</p> <hr  style={{width:"50%"}}/></div>
-                <div className="about-skill"><p>React JS</p> <hr  style={{width:"60%"}}/></div>
-                <div className="about-skill"><p>Javascript</p> <hr  style={{width:"50%"}}/></div>
-                <div className="about-skill"><p>DBMS</p> <hr  style={{width:"80%"}}/></div>
-                <div className="about-skill"><p>C++</p> <hr  style={{width:"90%"}}/></div>
+                <div className="about-skill"> <p>HTML & CSS</p> <hr  style={{width:"max(40vw,25px)"}}/></div>
+                <div className="about-skill"><p>React JS</p> <hr  style={{width:"max(45vw,30px)"}}/></div>
+                <div className="about-skill"><p>Javascript</p> <hr  style={{width:"max(35vw,20px)"}}/></div>
+                <div className="about-skill"><p>DBMS</p> <hr  style={{width:"max(50vw,35px)"}}/></div>
+                <div className="about-skill"><p>C++</p> <hr  style={{width:"max(50vw,35px)"}}/></div>
             </div>
         </div>
        </div>

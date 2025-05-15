@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 80;
+    gap: 80px;
     margin: 80px 170px;
 }
 .work-title{
@@ -31,17 +31,33 @@
     transition: 0.3s;
 }
 .mywork-container{
-    margin-top: 80px;
+    margin-top: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap:100px;
-
 }
 .mywork-container img:hover{
     transform: scale(1.10);
     border: 4px solid violet;
     border-radius: 10px;
     transition: 0.3s;
+}
+@media (max-width:480px)
+{
+    .work-title h1 {
+        padding: 0px;
+        font-size: 35px !important;;
+        font-weight: 600;
+    }
+    .mywork-container{
+       display: flex;
+       flex-direction: column; 
+       gap: 50px;
+    }
+    .mywork-container img{
+    border: 4px solid rgb(215, 107, 212);
+}
+
 }
 @media (max-width:768px)
 {
@@ -72,3 +88,4 @@
         height: 100%;
     }
 }
+

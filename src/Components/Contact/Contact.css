@@ -104,12 +104,30 @@
     transform: scale(1.1);
     transition: 0.3s;
 }
+@media (max-width:480px)
+{
+    .contact-section{
+        gap: 50px;
+    }
+ .contact-right input {
+        width: 300px !important;
+        height: 50px;
+        font-size: 16px;
+    } 
+   .contact-right textarea {
+    width: 300px !important;
+     }
+     
+}
 @media (max-width:768px)
 {
     .contact{
         gap: 50px;
         margin: 50px 70px;
         align-items: start;
+    }
+       .contact-section{
+        gap: 50px;
     }
     .contact-title h1{
         padding: 0px;
