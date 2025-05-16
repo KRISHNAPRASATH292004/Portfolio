@@ -46,7 +46,7 @@ const Contact = () => {
             <div className="contact-detail">
               <img src={mail_icon} alt="" />
               <p>
-                 <a href="mailto:krishnaprasth292004@gmail.com">krishnaprasth292004@gmail.com</a>
+                 <a href="mailto:krishnaprasth292004@gmail.com" target="_blank" rel="noopener noreferrer">krishnaprasth292004@gmail.com</a>
               </p>
             </div>
             <div className="contact-detail">
@@ -55,11 +55,11 @@ const Contact = () => {
             </div>
             <div className="contact-detail">
               <img src={linked_icon} alt="" />
-              <p><a href="https://www.linkedin.com/in/krishna-prasath-t-839862227?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Linkedin</a></p>
+              <p><a href="https://www.linkedin.com/in/krishna-prasath-t-839862227?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">Linkedin</a></p>
             </div>
               <div className="contact-detail">
               <img src={github_icon} alt="" />
-              <p><a href="https://github.com/KRISHNAPRASATH292004">Github</a></p>
+              <p><a href="https://github.com/KRISHNAPRASATH292004" target="_blank" rel="noopener noreferrer">Github</a></p>
             </div>
           </div>
         </div>
