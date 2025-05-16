@@ -106,13 +106,6 @@
 .tech-item:hover {
   transform: scale(1.1);
 }
-
-@media (max-width: 768px) {
-  .tech-icons {
-    gap: 20px;
-    justify-content: space-around;
-  }
-}
 @media (max-width:768px)
 {
     .about{
@@ -149,4 +142,8 @@
     .about-skill hr{
         height: 6px;
     }
+      .tech-icons {
+    gap: 20px;
+    justify-content: space-around;
+  }
 }
